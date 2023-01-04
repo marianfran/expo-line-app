@@ -201,11 +201,11 @@ export default function Map() {
                 </Popup>
             </Marker>
 
-            <CircleMarker center={[49.25367827613695, -122.91868207173422]} pathOptions={redOption} radius={20}>
+            <CircleMarker center={[49.25367827613695, -122.91868207173422]} pathOptions={redOption} radius={25}>
                 <Popup>Terminus Station: Production Way University</Popup>
             </CircleMarker>
 
-            <CircleMarker center={[49.1829310367517, -122.84473292807587]} pathOptions={redOption} radius={20}>
+            <CircleMarker center={[49.1829310367517, -122.84473292807587]} pathOptions={redOption} radius={25}>
                 <Popup>Terminus Station: King George</Popup>
             </CircleMarker>
 

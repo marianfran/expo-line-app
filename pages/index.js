@@ -36,6 +36,7 @@ export default function Home() {
                 height={40}
                 priority
               />
+            <p>400-287 Nelson's Ct., New Westminster, BC V3L0E || Contact: 604.953.3333 </p>
         </div>
 
       </main>
