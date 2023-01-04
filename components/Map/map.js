@@ -39,7 +39,7 @@ export default function Map() {
         [49.25367827613695, -122.91868207173422], // Production Way University
     ]
 
-    const blueOption = {color: 'blue'};
+    const blueOption = {color: 'darkblue'};
     const darkblueOption = {color: 'darkblue'};
     const redOption = {color: 'red'};
 

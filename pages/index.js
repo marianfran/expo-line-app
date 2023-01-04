@@ -20,7 +20,7 @@ export default function Home() {
         </div>
 
         <div className={styles.subheader}>
-          <p>Expo Line connects Downtown Vancouver with the cities of Burnaby, New Westminster, and Surrey. </p>
+          <p>Expo Line connects Downtown Vancouver to the cities of Burnaby, New West, and Surrey.</p>
         </div>
 
         <div className={styles.map}>
@@ -36,7 +36,7 @@ export default function Home() {
                 height={40}
                 priority
               />
-            <p>400-287 Nelson's Ct., New Westminster, BC V3L0E || Contact: 604.953.3333 </p>
+            <p>400-287 Nelson's Ct., New Westminster, BC V3L0E || Marian Francisco </p>
         </div>
 
       </main>
