@@ -20,8 +20,7 @@ export default function Home() {
         </div>
 
         <div className={styles.subheader}>
-          <p>Expo Line connects Downtown Vancouver with the cities of Burnaby, New Westminster, and Surrey.
-          View the map below to see the Skytrain Stations. </p>
+          <p>Expo Line connects Downtown Vancouver with the cities of Burnaby, New Westminster, and Surrey. </p>
         </div>
 
         <div className={styles.map}>
@@ -33,15 +32,10 @@ export default function Home() {
                 src="/TranslinkLogo.png"
                 alt="Translink Logo"
                 className={styles.TranslinkLogo}
-                width={120}
-                height={50}
+                width={100}
+                height={40}
                 priority
               />
-
-          <p>
-            Metro Vancouver's transportation network, serving residents and visitors with public transit, major roads, bridges and Trip Planning.
-          </p>
-
         </div>
 
       </main>

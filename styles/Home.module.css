@@ -42,6 +42,7 @@
   bottom: 0;
   width: 100%;
   text-align: center;
+
 }
 .footer p {
   color: #01355f;
@@ -49,14 +50,14 @@
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 500;
-  padding-bottom: 35px;
+  padding-bottom: 10px;
 }
 
 /* MAP */
 .map {
   display:fixed;
-  width: 600px;
-  height: 400px;
+  width: 700px;
+  height: 500px;
   margin-top: 5px;
   margin-bottom: 50px;
 }
