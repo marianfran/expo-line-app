@@ -20,7 +20,8 @@ export default function Home() {
         </div>
 
         <div className={styles.subheader}>
-          <p>Expo Line connects Downtown Vancouver with the cities of Burnaby, New Westminster, and Surrey. View the map below to see the Skytrain Stations. </p>
+          <p>Expo Line connects Downtown Vancouver with the cities of Burnaby, New Westminster, and Surrey.
+          View the map below to see the Skytrain Stations. </p>
         </div>
 
         <div className={styles.map}>
