@@ -15,7 +15,11 @@ export default function Home() {
       <main className={styles.main}>
 
         <div className={styles.header}>
-          <p>Welcome to the Expo Line</p>
+          <p>Welcome to Translink's Expo Line</p>
+        </div>
+
+        <div className={styles.subheader}>
+          <p>Expo Line connects Downtown Vancouver with the cities of Burnaby, New Westminster, and Surrey. View the map below to see the Skytrain Stations. </p>
         </div>
 
         <div className={styles.center}>
