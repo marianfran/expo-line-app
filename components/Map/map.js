@@ -41,6 +41,7 @@ export default function Map() {
 
     const blueOption = {color: 'blue'};
     const darkblueOption = {color: 'darkblue'};
+    const redOption = {color: 'red'};
 
     return (
         <MapContainer className={style.map} center={position} zoom={10} scrollWheelZoom={true}>
@@ -194,8 +195,18 @@ export default function Map() {
                 </Popup>
             </Marker>
 
+            <CircleMarker center={[49.25367827613695, -122.91868207173422]} pathOptions={redOption} radius={20}>
+                <Popup>Terminus Station: Production Way University</Popup>
+            </CircleMarker>
+
+            <CircleMarker center={[49.1829310367517, -122.84473292807587]} pathOptions={redOption} radius={20}>
+                <Popup>Terminus Station: King George</Popup>
+            </CircleMarker>
+
             <Polyline pathOptions={blueOption} positions={WaterfronttoKingGeorge}/>
             <Polyline pathOptions={darkblueOption} positions={WaterfronttoProductionWay}/>
+
+
         </MapContainer>
     )
 }
