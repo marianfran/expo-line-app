@@ -11,6 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Expo Line App</title>
+        <link rel="icon" href="/TranslinkLogo.png" />
       </Head>
 
       <main className={styles.main}>
